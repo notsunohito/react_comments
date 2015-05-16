@@ -1,0 +1,16 @@
+{
+  "name": "react_comments",
+  "version": "0.0.1",
+  "private": true,
+  "description": "React Tutorial + json-server",
+  "main": "index.html",
+  "scripts": {
+    "start": "node_modules/.bin/jsx src/ dest/ && node_modules/.bin/json-server db.json"
+  },
+  "author": "Shuichiro Kamiya",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.7.8",
+    "react-tools": "^0.13.3"
+  }
+}
